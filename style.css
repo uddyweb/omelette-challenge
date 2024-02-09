@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    height: 250vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ebcbae;
+}
+.text{
+    font-weight: bold;
+    font-size: 1rem;
+}
+h2{
+    color: #c3195d;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+img{
+    width: 100%;
+    height: 70vh;
+    border-radius: 4rem;
+    object-fit: contain;
+}
+.subhead{
+    background-color: #fafafa;
+    position: relative;
+    border-radius: 20px;
+    padding: 50px 60px;
+}
+.sub h1{
+    margin: 1rem;
+    font-size: 2.5rem;
+    font-family: 'EB Garamond', serif;
+}
+.sub p{
+    margin: 2rem;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 1rem;
+}
+.prep{
+    margin: 0 2rem;
+    background-color: #f5c7f7;
+    border-radius: 1rem;
+    padding: 1rem 3rem;
+}
+.prep ul{
+    margin: 1.5rem;
+}
+.prep li{
+    padding: 0.5rem;
+}
+.ingre{
+    padding: 2rem;
+}
+.ingre ul{
+    margin: 1.5rem;
+}
+.ingre li{
+    padding: 0.5rem;
+}
+.inst{
+    padding: 2rem;
+}
+.inst ol{
+    margin: 1rem;
+}
+.inst li{
+    padding: 1rem;
+}.nut{
+    padding: 2rem;
+}
+.nut p{
+    padding: 0.5rem;
+}
+.nut-cal{
+    padding: 2rem;
+    margin: 0 auto;
+}
+.num{
+    color: #c3195d;
+    padding-left: 20rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cal{
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media screen and (max-width: 1300px){
+    .subhead{
+        width: 100%;
+        height: 258vh;
+    }
+    img{
+        width: 100%;
+        height: 300px;
+    }
+    .sub h1{
+        text-align: center;
+    }
+    .sub p{
+        font-size: 1rem;
+    }
+    .prep{
+        margin: 0 1rem;
+        position: relative;
+        padding: 2rem 1rem;
+    }
+    .inst{
+        font-size: 1rem;
+    }
+}
+@media  screen and (max-width: 700px) {
+    .subhead{
+        width: 100%;
+        height: 275vh;
+    }
+    img{
+        width: 100%;
+        height: 300px;
+    }
+    .sub h1{
+        text-align: center;
+    }
+    .sub p{
+        font-size: 1rem;
+    }
+    .prep{
+        margin: 0 1rem;
+        position: relative;
+        padding: 2rem 2rem;
+    }
+    .inst{
+        font-size: 1rem;
+    }
+    .nut{
+        margin: 0 auto;
+    }
+}
